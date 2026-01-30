@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdeaChiara - Valuta la tua idea</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fefefe; color: #333; text-align: center; padding: 50px; }
+        input, textarea, select, button { margin: 10px 0; padding: 10px; width: 300px; }
+        button { cursor: pointer; background: #4CAF50; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <h1>Capisci se la tua idea di business può funzionare</h1>
+    <p>Inserisci la tua idea e ricevi un’analisi chiara e semplice.</p>
+    
+    <form id="ideaForm">
+        <textarea placeholder="Descrivi brevemente la tua idea di business" required></textarea><br>
+        <input type="text" placeholder="A chi vorresti vendere? (target)" required><br>
+        <select required>
+            <option value="">Quanto tempo puoi dedicare?</option>
+            <option value="poco">Poco (1–3 ore/settimana)</option>
+            <option value="medio">Medio (5–10 ore)</option>
+            <option value="molto">Molto (>10 ore)</option>
+        </select><br>
+        <button type="submit">Analizza l’idea</button>
+    </form>
+
+    <p>Per ora, copia i dati e incollali in ChatGPT per ricevere l’analisi.</p>
+</body>
+</html>
